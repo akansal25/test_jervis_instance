@@ -1,4 +1,5 @@
 FROM registry2.swarm.devfactory.com/test/dev_hatsize_jervis_v1:latest
+FROM ubuntu:16.04
 
 # install ssh server
 RUN apt-get update && apt-get install -y openssh-server
